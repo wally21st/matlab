@@ -4,7 +4,7 @@ function phase = unwrapZW( x )
 
 [row,column]=size(x);
 
-R = fix(row/2);     C = fix(column/2);  % the ceCter
+R = fix(row/2);     C = fix(column/2);  % the center
 
 % ZJ
 if  x(R,C-1) - x(R,C) >= 3.1416 
